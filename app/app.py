@@ -12,7 +12,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../scri
 from feature_extraction import preprocess_image, extract_features
 # Download and load the model from Hugging Face
 hf_token = os.getenv("HF_TOKEN")  # Fetch the token from environment variables
-model_path = hf_hub_download(repo_id="ncompashf/card_grading_model", filename="card_grading_model.h5", token=hf_token)
+model_path = hf_hub_download(repo_id="", filename="card_grading_model.h5", token=hf_token)
 model = load_model(model_path)
 
 # Define the grade mapping
