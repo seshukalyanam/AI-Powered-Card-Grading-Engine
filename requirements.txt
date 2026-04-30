@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+pillow
+numpy
+azure-storage-blob
+opencv-python-headless
+huggingface_hub
