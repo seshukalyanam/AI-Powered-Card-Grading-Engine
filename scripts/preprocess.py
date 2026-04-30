@@ -4,7 +4,7 @@ import pandas as pd
 from PIL import Image
 from io import BytesIO
 
-connection_string = "DefaultEndpointsProtocol=https;AccountName=inputimages;AccountKey=P9NbrSmoCvyP45yBsyHf3lDQesFjtkn1RrT2SUy5/Y20ESSQ9sY+p3NbCiwPzCZlZC5W3uEZfIPN+ASt/JE7JA==;EndpointSuffix=core.windows.net"# Replace with your connection string
+connection_string = ""# Replace with your connection string
 container_name = "images"
 
 # Directory to save downloaded images
