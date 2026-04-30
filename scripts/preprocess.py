@@ -5,7 +5,7 @@ from PIL import Image
 from io import BytesIO
 
 connection_string = ""# Replace with your connection string
-container_name = "images"
+container_name = "" # Replace with your container name
 
 # Directory to save downloaded images
 download_dir = "./data"
